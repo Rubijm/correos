@@ -15,8 +15,11 @@
       padding-right:1rem;
 
     }
-    a{
-      text-decoration:none;
+     a {text-decoration: none; color: #838691;}
+    
+      a:hover,a:visited,a:active,a:focus{
+     
+      text-decoration:underline;
     }
     h1{
       font-size:24px;
@@ -25,6 +28,11 @@
       margin-bottom:3rem;
       color:#FFFFFF;
     }
+
+    ul {padding: 0px; margin: 0px;}
+
+    li {display: inline;}
+
     hr{
       border-top:1px solid #363B4D;
       border-bottom:0;
@@ -47,9 +55,11 @@
 
     }
 
+    .spacer {margin: 0.66rem;  color:#838691;}
+
     .legal{
-      padding-right:1rem;
-      padding-left:1rem;
+      padding-right:0rem;
+      padding-left:0rem;
     }
     .legal-txt{
       font-size:.85rem;
@@ -66,6 +76,8 @@
       padding-left:0;
       text-align:center;
     }
+
+    .spacer {display: none;}
 
 }</style></head>
   <body>
@@ -108,7 +120,7 @@
             <!--CTA-->
             <tr>
               <td style="text-align:center;padding-top:3rem;">
-                <a class="button" href="https://blog.easybroker.com/lanzamientos-en-la-app/?utm_medium=organico&amp;utm_source=mail&amp;utm_campaign=lanzamientos-app-co&amp;utm_content=co-ew-lanzamientosapp">Conocer más</a>
+                <a style="text-decoration: none;" class="button" href="https://blog.easybroker.com/lanzamientos-en-la-app/?utm_medium=organico&amp;utm_source=mail&amp;utm_campaign=lanzamientos-app-co&amp;utm_content=co-ew-lanzamientosapp">Conocer más</a>
               </td>
             </tr>
             <!--Termina CTA -->
@@ -143,12 +155,22 @@
           <table align="center" class="legal-txt">
             <tr>
               <td>
+
+                <ul>
+                    <li><a class="legal-txt" href="*|ARCHIVE|*">ver en tu navegador</a><span class="spacer">·</span></li>
+                    <li><a class="legal legal-txt" href="https://blog.easybroker.com">visitar nuestro blog</a><span class="spacer">·</span></li>
+                    <li><a class="legal-txt" href="*|UNSUB|*">cancelar suscripción</a></li>
+
+                </ul>
+                <!--
                 <a class="legal-txt" href="*|ARCHIVE|*">ver en tu navegador</a>
               </td>
               <td> <a class="legal legal-txt" href="https://blog.easybroker.com">visitar nuestro blog</a>
             </td>
             <td>
               <a class="legal-txt" href="*|UNSUB|*">cancelar suscripción</a>
+
+            -->
             </td>
           </tr>
         </table>
@@ -156,7 +178,7 @@
     </tr>
     <tr align="center">
       <td>
-        <p class="legal-txt">Enviado por EasyBroker - 8345 NW 66 St. #4672, Miami, FL 33166</p>
+        <p class="legal-txt">Enviado por <a href="https://easybroker.com">EasyBroker</a> - 8345 NW 66 St. #4672, Miami, FL 33166</p>
       </td>
     </tr>
   </table>
