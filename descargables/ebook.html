@@ -7,9 +7,11 @@
 
     <style type="text/css">
     	body {font-family:'Avenir Next',Arial,sans-serif; margin: 0;background-color: white;}
+
+      ul {padding: 0px; margin: 0px;}
+      li {display: inline;}
     	strong {color: #7045FF; font-weight: 600;}
     	a {text-decoration: none;}
-
 
       a {text-decoration: none; color: #838691;}
       
@@ -25,11 +27,19 @@
     	.legal {padding-right: 1rem; padding-left: 1rem;}
 
     	.titulo {padding-right: 50px; padding-left: 50px;}
-    @media only screen and (max-width: 480px){
-    .legal{
-      padding-right:0px; padding-left: 0px; text-align: center;}
-     .titulo {padding-right: 0px; padding-left: 0px;}
-    }
+
+
+     @media (max-width: 768px) {
+
+      li {display: table-row;}
+
+      .legal {
+          padding-right:0;
+          padding-left:0;
+          text-align:center;
+        }
+        .titulo {padding-right: 0px; padding-left: 0px;}
+     }
     </style>
 </head>
 <body>
